@@ -354,7 +354,7 @@ For example, this code may fail to update the counter:
 ```js
 // Wrong
 this.setState({
-  counter: this.state.counter + this.props.increment,
+  counter: this.state.counter + this.props.increment
 });
 ```
 
